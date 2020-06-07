@@ -31,7 +31,6 @@ class Base {
 
     protected void run() {
         double r = Math.random();
-        r = 1.0;
         if (r < 0.1) {
             fail("oops");
         } else if (r < 0.2) {
